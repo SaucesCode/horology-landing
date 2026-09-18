@@ -1,0 +1,61 @@
+/* css/variables.css - Design System Tokens */
+
+:root {
+    /* Color Palette - Luxury Dark Theme */
+    --clr-bg-base: #0a0a0a;
+    --clr-bg-surface: #111111;
+    --clr-bg-elevated: #1a1a1a;
+    
+    --clr-accent: #c9a84c;
+    --clr-accent-hover: #b5952f;
+    --clr-accent-soft: rgba(201, 168, 76, 0.15);
+    
+    --clr-text-primary: #f0ece2;
+    --clr-text-secondary: #8a8a8a;
+    --clr-text-inverse: #0a0a0a;
+
+    --clr-border: rgba(255,255,255,0.08);
+    --clr-border-light: rgba(255,255,255,0.15);
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+    
+    /* Font Sizes */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.5rem;
+    --text-2xl: 2rem;
+    --text-3xl: clamp(2.25rem, 5vw, 3.5rem);
+    --text-hero: clamp(3.5rem, 10vw, 7rem);
+
+    /* Spacing Scale */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+
+    /* Radii */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+
+    /* Animation Easing */
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+    
+    /* Z-Index */
+    --z-header: 100;
+    --z-drawer: 200;
+    --z-overlay: 150;
+}
