@@ -54,9 +54,6 @@ horology-landing/
    ```
 2. Open `index.html` in your browser. That's it — no build step required.
 
-## 📸 Screenshots
-
-> Screenshots will be added after deployment.
 
 ## 📄 License
 
